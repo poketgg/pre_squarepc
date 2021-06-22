@@ -7,6 +7,10 @@ body{
     text-align: center;
 }
 
+.mainimg{
+    max-width: 650px;
+}  
+
 .menu{
 
     font-family: 'Gothic A1', sans-serif;
