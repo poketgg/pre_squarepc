@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+.main_img{
+    display:block;
+    text-align: center;
+}
+
+.menu{
+    padding-top: ;
+
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 600;
+    font-size: 125%;
+    word-spacing: 5rem;
+    vertical-align: middle;
+
+    text-align: center;
+    background-color:white;
+    color:black;
+}
+
+.hr1{
+    border: 0;
+    height: 0rem;
+    background: white;
+}
+
+.hr2{
+    border: 0;
+    height: 0.1rem;
+    background: black;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    /* width 100% */
+    left: 0;
+    right: 0;
+}
+
+.recommend{
+    max-width: 2rem;  
+    width: auto;
+}
+
+.time{
+    max-width: 2rem;  
+    width: auto;
+}
+
+.month{
+    max-width: 2.5rem;  
+    width: auto;
+}
+
+.online{
+    max-width: 2.5rem;  
+    width: auto;
+}
