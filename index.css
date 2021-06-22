@@ -68,3 +68,43 @@ header{
     max-width: 2.5rem;  
     width: auto;
 }
+
+d{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 175%;
+    display: block;
+    text-align: center;
+
+    font-weight: 700;
+    color: rgb(100, 50, 255);
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.bot{
+    margin-bottom: 45em;
+}
+
+.saup{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 30%;
+    display: block;
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+
+    font-weight: 300;
+
+}
+
+.saupout{
+    background-color: rgb(230, 230, 230);
+
+}
+
+.saupimg{
+    float: left;
+}
