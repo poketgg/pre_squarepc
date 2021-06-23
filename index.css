@@ -113,3 +113,10 @@ d{
 .saupimg{
     float: left;
 }
+
+.tong{
+    background-color: white;
+    border: 01px solid gray;
+    font-size: 2px;
+    font-weight: 600;
+}
