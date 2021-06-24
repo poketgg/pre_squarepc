@@ -24,6 +24,29 @@
         .out > img { 
             float: left;
         }
+
+        h1{
+            font-family: 'Gothic A1', sans-serif;
+            font-size: 150%;
+            text-align: center;
+            font-weight: 800;
+        }
+    
+        .w3-content_w3-section{
+            display: block;
+            margin: auto;
+        }
+
+        .k1{
+            display: block;
+            font-size: 10%;
+            margin-top: 0;
+            text-align: right;
+
+            max-width: 1600px;
+        }
+
+
     </style>
 </head>
 
@@ -44,6 +67,20 @@
         </nav>
         </div>
       </header>
+
+
+      <!--아래 div는 이미지 슬라이더 구현을 위한 div 입니다.-->
+    <div class="slideout">
+     <div class="w3-content_w3-section" style="max-width:1300px;">
+        <img class="mySlides" src="Test-green.png" style="width:100%">
+        <img class="mySlides" src="Test-mint.png" style="width:100%">
+        <img class="mySlides" src="Test-pink.png" style="width:100%">
+      </div>
+      <k class="k1">img : 1000*400 (px)</k>
+    </div>
+      
+
+      <h1>MAIN</h1>
 
       <div class="out">
         <p><img class="pc"; src="pc1_dlx21.png"; width="20%"; style="float : left;";></p>
@@ -67,9 +104,27 @@
         </div>
 
      </div>
+
+    
     </body>
 
+
 <script>
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 2700); // Change image every 2 seconds
+}
 
 </script>
 
