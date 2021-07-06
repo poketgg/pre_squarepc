@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    //
+    var randNum = Math.floor(Math.random() * 500);
+
+    // An array of URL's
+    var randURLs = [
+        "https://open.kakao.com/o/s7CczOmd",
+        "https://open.kakao.com/o/sPCNiD1c",
+        "https://open.kakao.com/o/sPCNiD1c"
+    ];
+
+    // There was a 1 in 500 chance we generated a zero.
+    if (randNum == 0) {
+        // randURLs.length will tell us how many elements are
+        // in the randURLs array - we can use this to generate
+        // a random number between 0 and n (number of elements)
+        //
+        // In our case there are 3 elements in the array, 0, 1
+        // and 2. So we want to get another random number in
+        // the inclusive range 0 - 2
+        //
+        var randURL = Math.floor(Math.random() * randURLs.length);
+
+        window.open(randURLs[randURL]);
+    }
+</script>
+
+</html>
